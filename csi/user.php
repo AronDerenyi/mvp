@@ -1,0 +1,3 @@
+<?
+echo "{\"username\": \"Aron\"}";
+?>

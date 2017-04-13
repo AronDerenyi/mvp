@@ -1,0 +1,20 @@
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="../styles/style.css">
+
+		<script src="View.js"></script>
+		<script src="Presenter.js"></script>
+
+		<script src="../scripts/jquery.js"></script>
+		<script src="../models/UserModel.js"></script>
+	</head>
+	<body>
+		<h1 id="welcome_text"/>
+	</body>
+</html>
+
+<script>
+var view = new View();
+var presenter = new Presenter();
+$(document).ready(view.ready);
+</script>
